@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/scratcher/static/css/main.e6c13ad2.css",
+    "main.js": "/scratcher/static/js/main.f165b754.js",
+    "static/js/787.1eced9e9.chunk.js": "/scratcher/static/js/787.1eced9e9.chunk.js",
+    "static/media/eiran.jpg": "/scratcher/static/media/eiran.bff34456f42f48b58f11.jpg",
+    "index.html": "/scratcher/index.html",
+    "main.e6c13ad2.css.map": "/scratcher/static/css/main.e6c13ad2.css.map",
+    "main.f165b754.js.map": "/scratcher/static/js/main.f165b754.js.map",
+    "787.1eced9e9.chunk.js.map": "/scratcher/static/js/787.1eced9e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f165b754.js"
+  ]
+}
