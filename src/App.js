@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef }  from 'react';
+import ScratchCard from 'react-scratchcard-v2';
+import { CUSTOM_BRUSH_PRESET } from 'react-scratchcard-v2';
 
-function App() {
+import IMG from './eiran.jpg';
+
+const App = () => {
+
+  const ref = useRef<ScratchCard>(null);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      
+      <ScratchCard
+        width={400}
+        height={700}
+        image={IMG}
+        finishPercent={80}
+        customBrush={CUSTOM_BRUSH_PRESET}
+        onComplete={() => console.log('complete')}
+      >
+        <div style={{
+          display: 'flex',
+          width: '100%',
+          height: '100%',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
         >
-          Learn React
-        </a>
-      </header>
+          <h1>Hello</h1>
+        </div>
+      </ScratchCard>
     </div>
   );
-}
+};
 
 export default App;
