@@ -24,13 +24,15 @@ const App = () => {
       >
         <div style={{
           display: 'flex',
+          flexDirection: 'column',
           width: '100%',
           height: '100%',
           alignItems: 'center',
-          justifyContent: 'center'
+          justifyContent: 'flex-end',
         }}
         >
-          <h1>We're going to Amsterdam!</h1>
+          <h2>We're going to...</h2>
+          <h2 style={{paddingBottom: '6rem'}}>Amsterdam!</h2>
         </div>
       </ScratchCard>
     </div>
