@@ -2,7 +2,7 @@ import React, { useRef,useEffect }  from 'react';
 import ScratchCard from 'react-scratchcard-v2';
 import { CUSTOM_BRUSH_PRESET } from 'react-scratchcard-v2';
 
-import IMG from './eiran.jpg';
+import IMG from './hb.jpg';
 
 const App = () => {
 
@@ -30,7 +30,7 @@ const App = () => {
           justifyContent: 'center'
         }}
         >
-          <h1>Hello</h1>
+          <h1>We're going to Amsterdam!</h1>
         </div>
       </ScratchCard>
     </div>
