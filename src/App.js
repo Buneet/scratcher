@@ -1,4 +1,4 @@
-import React, { useRef }  from 'react';
+import React, { useRef,useEffect }  from 'react';
 import ScratchCard from 'react-scratchcard-v2';
 import { CUSTOM_BRUSH_PRESET } from 'react-scratchcard-v2';
 
@@ -7,11 +7,14 @@ import IMG from './eiran.jpg';
 const App = () => {
 
   const ref = useRef<ScratchCard>(null);
-
+  useEffect(()=>{
+    document.addEventListener('touchmove', function(e) {
+      e.preventDefault();
+  }, { passive: false });
+  }, [])
 
   return (
     <div>
-      
       <ScratchCard
         width={400}
         height={700}
