@@ -2,7 +2,7 @@ import React, { useRef,useEffect }  from 'react';
 import ScratchCard from 'react-scratchcard-v2';
 import { CUSTOM_BRUSH_PRESET } from 'react-scratchcard-v2';
 
-import IMG from './hb.jpg';
+import IMG from './img.jpg';
 
 const App = () => {
 
