@@ -18,7 +18,7 @@ const App = () => {
         width={400}
         height={700}
         image={IMG}
-        finishPercent={80}
+        finishPercent={50}
         customBrush={CUSTOM_BRUSH_PRESET}
         onComplete={() => console.log('complete')}
       >
