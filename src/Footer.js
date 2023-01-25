@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div style={{paddingLeft:'1rem'}}><p>Made with ❤️ by Buneet</p></div>
+    <div style={{color: '#acacac', paddingLeft:'1rem'}}><p>Made with ❤️ by Buneet</p></div>
   );
 };
 
